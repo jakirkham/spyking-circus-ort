@@ -399,6 +399,6 @@ def synthetic_grid(path, size=2, duration=60.0, sampling_rate=20000.0):
     '''TODO add doc...'''
     path = os.path.expanduser(path)
     syn_grid = SyntheticGrid(path, size, duration, sampling_rate)
-    syn_grid.plot()
+    # syn_grid.plot()
     syn_grid.save()
     return syn_grid
