@@ -18,7 +18,7 @@ class RawBinary(object):
         self.head = 0
 
     def load(self):
-        data ) self.f[:, :]
+        data = self.f[:, :]
         return data
 
     def load_data(self):
