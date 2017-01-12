@@ -174,6 +174,3 @@ while dataset.data_available:
     fig.canvas.draw()
     plt.pause(0.3)
     # TODO: detect threshold crossing...
-
-while True:
-    plt.pause(0.05)
